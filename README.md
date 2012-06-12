@@ -1,8 +1,5 @@
-other
+Win32OLE Mapper for IE
 =====
-
-Win32OLE Wrapper for IE
-
 This library enable you to manipurate InternetExplore easily using Ruby.
 In your work, you have many borning tasks that you have to do as a routine work.
 I hope that you improve your jobs and take the great life!
