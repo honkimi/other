@@ -1,6 +1,5 @@
 # -*- encoding: UTF-8 -*-
 require 'win32OLE'
-require './lib/RakutenAuth'
 
 class IEPage
   
