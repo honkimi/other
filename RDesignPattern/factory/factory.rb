@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+# Abstract Factory
+# 内部でファクトリのオブジェクト(organism_factory)を持ってる
 class Habitat
   def initialize number_animals, number_plants, organism_factory
     @organism_factory = organism_factory
@@ -35,6 +37,9 @@ class Habitat
   end
 end
 
+
+# Factory
+# どのクラスを使うかの関連付け
 class JungleOrganismFactory
   def new_animal name
     Tiger.new(name)
